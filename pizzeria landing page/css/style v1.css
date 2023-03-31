@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+}
+header{
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-photo/splashing-dust-powder_1252-675.jpg?size=626&ext=jpg&ga=GA1.1.1283977296.1679940074&semt=ais");
+    background-size: cover;
+    color: rgb(245, 249, 252);
+    height: 500px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.856);
+    opacity: 1;
+	animation: none;
+
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(150px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.title{    
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000;
+    justify-content: center;
+    padding-top: 180px;
+    height: 0px;
+
+
+}
+.butao-title1{
+    margin-left: 44%;
+    height: 45px;
+    width: 160px;
+    align-items: center;
+    margin-top: 100PX;
+}
+.butao-title2{
+    margin-left:44%;
+    height: 45px;
+    width: 160px;
+    align-items: center;
+    
+}
+.butao{
+    cursor: pointer;
+    background-color: rgba(241, 241, 234, 0.966);
+    color: rgba(0, 0, 0, 0.945);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
+
+}
+.butao:hover{
+    background-color: rgba(10, 10, 10, 0.966);
+    border: 1px;
+    border-style: outset;
+    border-color: rgb(248, 248, 248);
+    color: #e6e5e5;
+    
+
+}
+.zap-logo{
+    height: 15px;
+    width: 15px;
+    padding-left: 72px;
+    padding-top: 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-image: linear-gradient(to left, rgba(226, 223, 24, 0.87), rgb(66, 66, 66));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 30px;
+    opacity: 0;
+	animation: fade-in 3s forwards;
+    border: 8px;
+    border-top-style:solid;
+    border-color: #e6e5e5;
+    
+
+}
+.about{
+    color: rgba(0, 0, 0, 0.945);
+    border: 2px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 300px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.856);
+}
+.main-title{
+    text-align: center;
+    padding-top: 30px;
+    color: #0f0f0f;
+    font-size: 27px;
+    text-shadow: 1px 1px 0 rgba(241, 236, 237, 0.87), -1px -1px 0 rgba(240, 235, 236, 0.87), 1px -1px 0 rgba(199, 195, 196, 0.87), -1px 1px 0 rgba(165, 161, 162, 0.87);
+
+}
+.about-text{
+    font-size: 16px;
+    
+
+}
+.div-img{
+    border: 4px;
+    border-bottom-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.img-main{
+    height: 300px;
+    width: 550px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.801);
+    
+}
+.horario{
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.dias{
+    text-align: left;
+    color: #e6e5e5;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: 7px;
+
+}
+.feriado{
+    border: 4px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 15px;
+    margin-right: 1100px;
+    border-color: #000;
+}
+footer{
+    color: rgb(248, 251, 253);
+    background-color: #141414;
+    box-shadow: 15px 15px 15px 15px black;
+    font-size: 13px;
+}
+.redes{
+    padding: 15px;
+    padding-top: 30px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.info{
+    text-align: right;
+    padding-right: 20px;
+}
+.tele{
+    padding-left: 15px;
+}
+.owner{
+    padding-top: 20px;
+    font-size: 10px;
+}
+.menu{
+    display:none;
+    background-image: linear-gradient(to left, #141414,rgb(100, 100, 100));
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    height: 6050px;
+    width: 600px;
+    margin-left: 400px;
+    padding-top: 40px;
+    border-radius: 35px;
+    color: rgb(224, 224, 224);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 3px;
+    border-style: solid;
+    opacity: 0;
+	animation: fade-in 1s forwards;
+
+}
+.fechar{
+    border-radius: 160px;
+    color: rgb(190, 19, 13);
+    background-color: rgb(202, 201, 201);
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-right: 500px;
+}
+.fechar:hover{
+    background-color: rgb(155, 153, 153);
+    border-color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+.w3-container.w3-black{
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border: 2px;
+    border-bottom-style: solid;
+    border-color: #000;
+    width: 400px;
+    margin-left: 100px;
+    padding-bottom: 5px;
+    
+}
+.pizza-img{
+    height: 250px;
+    width: 400px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    box-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+h5{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgba(234, 235, 236, 0.897);
+}
+.precos{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    border: 2px;
+    color: #000;
+    border-color:#e6e5e5;
+}
+.sabores{
+    border: 4px;
+    border-top-style: solid;
+    margin-top: 15px;
+}
+.tamanhos{
+    font-size: 19px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+
+}
+b{
+    color: #2bd325;
+}
